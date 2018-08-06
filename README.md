@@ -1,35 +1,28 @@
 # AndroidShimmer
 Las Librerias necesarias:  
-1. Library necesarias de google maps  
-
-> implementation'com.google.android.gms:play-services-maps:12.0.1'  
-> implementation'com.google.android.gms:play-services:12.0.1'  
+1. Library necesarias de retrofit  
+> implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'  
+> implementation 'com.squareup.retrofit2:converter-gson:2.4.0'  
 
 2. Add library to supportDesign  
-> implementation'com.android.support:cardview-v7:27.1.1'  
 > implementation 'com.android.support:design:27.1.1'  
-> implementation 'com.android.support:recyclerview-v7:27.1.1'  
 
-3.  Add library to realm
-> apply plugin: 'realm-android'
+3. Add library to Shimmer
+>  implementation 'io.supercharge:shimmerlayout:2.1.0'
 
 4. Add Library extras
-> implementation 'com.github.d-max:spots-dialog:0.7@aar'  
-> implementation 'uk.co.chrisjenx:calligraphy:2.3.0'  
-> implementation 'com.rengwuxian.materialedittext:library:2.1.4'  
+> implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'  
+> implementation 'io.reactivex.rxjava2:rxjava:2.1.7'  
+
+5. Add Picasso
+> implementation 'com.squareup.picasso:picasso:2.71828'  
 
 
-Preview  
+Preview and Imagen 
 
-Preview 1             	 | 
-:-----------------------:|
-<img src="https://raw.githubusercontent.com/puitiza/AndroidShimmer/master/preview/gif/1.gif" width="25%"  />    |  
-
-Images  
-
-Imagen 1             	   |  Imagen 2	        				|
-:-----------------------:|:-------------------------: |
-![alt text][logo1] 		   |![alt text][logo2] 	    		|
+Preview 1             	 | Imagen 1             	   |  Imagen 2	        				|
+:-----------------------:|:-----------------------:|:-------------------------: |
+<img src="https://raw.githubusercontent.com/puitiza/AndroidShimmer/master/preview/gif/1.gif"  />|  ![alt text][logo1] 		   |![alt text][logo2] 	    		|
 
 
 [logo1]: https://raw.githubusercontent.com/puitiza/AndroidShimmer/master/preview/imagen/1.png
